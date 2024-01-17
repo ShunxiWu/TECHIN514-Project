@@ -1,0 +1,111 @@
+# Knee Joint Motion Monitoring System
+
+## Project Overview
+### Description
+The Knee Joint Motion Monitoring System is designed to analyze and monitor the motion of a replaced knee joint rehabilitation. It utilizes two Inertial Measurement Units (IMUs) placed at each end of the joint for angle measurement and motion recognition. The system includes a sensing device and a display device, each with its custom PCB.
+
+### Sketch
+[Include a sketch of the system, showcasing the placement of IMUs at the knee joint ends and any other relevant components.]
+
+## Sensing Device
+
+### Basic Enclosure
+**Enclosure Design:** [Describe the basic enclosure design for the sensing device]
+
+<!-- ### Custom PCB
+**PCB Design:** [Describe the custom PCB design for the sensing device] -->
+
+### IMU 1 and 2:
+**Part Number:** JY901
+
+**Description:**
+IMU 1 and 2 is placed at each one end of the knee joint to measure angles and capture motion data. It provides accurate information for joint movement analysis.
+
+<!-- **Datasheets:** -->
+
+
+### TCA9548A - I2C Multiplexer
+**Part Number:** TCA9548A
+
+**Description:**
+The TCA9548A is an I2C multiplexer with eight bidirectional translating switches that can be controlled through the I2C bus. It provides flexibility for expanding one upstream pair (SCL/SDA) to eight downstream pairs or channels.
+The TCA9548A is utilized in our Knee Joint Motion Monitoring System to enable the selection of different downstream channels for I2C communication with multiple IMUs. This enhances the system's flexibility and resolves potential address conflicts.
+
+### ESP32 - Wireless Communication
+**Wireless Module:** ESP32 Internal Wi-Fi/Bluetooth Module
+
+**Description:**
+The sensing device communicates wirelessly with the display device using the ESP32's internal Wi-Fi and/or Bluetooth capabilities. The ESP32 microcontroller is equipped with integrated Wi-Fi (802.11 b/g/n) and Bluetooth (Classic and BLE) modules, providing reliable and versatile wireless communication options.
+
+**Integration in the Project:**
+- Wi-Fi: Enables data transfer and communication over local Wi-Fi networks, facilitating remote monitoring and data logging.
+- Bluetooth: Facilitates short-range communication between the sensing and display devices, ensuring seamless connectivity.
+
+<!-- **Datasheets:** -->
+
+### Power Solutions
+**Battery Type:** Lithium Polymer (Li-Po)
+
+**Description:**
+The Knee Joint Motion Monitoring System is powered by a lightweight and high-energy-density Lithium Polymer (Li-Po) battery. Li-Po batteries are known for their compact size and weight, making them suitable for portable and wearable applications. The specific battery model and manufacturer details can be found in the "Datasheets" folder.
+
+**Capacity:** 3000mAh
+
+
+**Description:**
+Power is provided by a [insert battery type] with [insert capacity]. A detailed analysis of battery-only options is provided in the project documentation.
+
+<!-- **Datasheets:** -->
+
+
+
+## Display Device
+### Custom Enclosure
+**Enclosure Design:** [Describe the custom enclosure design for the display device]
+
+### Custom PCB
+**PCB Design:** [Describe the custom PCB design for the display device]
+
+### Stepper-Motor-Driven Gauge Needle and LED
+**Stepper Motor:** NEMA 17 Bipolar Stepper Motor (e.g., Model: 17HS4401)
+
+**LEDs:** WS2812B RGB LEDs
+
+**Description:**
+The display device features a precision NEMA 17 bipolar stepper motor, such as the Model 17HS4401, driving a gauge needle to visually represent the knee's range of motion. This stepper motor provides accurate and controlled motion, allowing users to monitor and interpret the knee joint's movement. Additionally, WS2812B RGB LEDs are integrated to offer dynamic and customizable lighting for enhanced visual feedback.
+
+### Button
+**Button Type:** Capacitive Touch Button
+
+**Description:**
+Capacitive touch buttons provide a seamless and responsive interface for users to turn on and off the display device.
+
+### Thoughtfully-Sized Battery
+**Battery Type:** Lithium Polymer (Li-Po)
+
+**Capacity:** 3000mAh
+
+**Estimated Runtime:** Approximately 48 hours
+
+**Description:**
+The display device is powered by a lightweight and high-energy-density Lithium Polymer (Li-Po) battery with a capacity of 3000mAh. This thoughtfully-sized battery ensures optimal performance and provides an estimated runtime of approximately 48 hours on a full charge. The battery type and capacity are chosen to balance extended runtime with the need for a lightweight solution.
+
+<!-- **Datasheets:** -->
+
+
+### Additional Displays (Optional)
+[Include details if additional displays (OLED, LCD, E-INK, etc.) are incorporated.]
+
+## Additional Requirements
+### DSP/ML Algorithms
+**Algorithms Developed:** [Specify the DSP/ML algorithms developed]
+
+**Description:**
+Custom DSP/ML algorithms are developed for data handling. These algorithms can be executed on the microcontroller of either the sensing or display device.
+
+### Custom PCB Incorporation
+**Location of Custom PCB:** [Specify whether the custom PCB is incorporated into the sensing or display device]
+
+**Description:**
+At least one custom PCB is incorporated into the final project. It enhances the functionality and efficiency of the [insert sensing or display device].
+

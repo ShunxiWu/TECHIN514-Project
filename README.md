@@ -4,8 +4,22 @@
 ### Description
 The Knee Joint Motion Monitoring System is designed to analyze and monitor the motion of a replaced knee joint rehabilitation. It utilizes two Inertial Measurement Units (IMUs) placed at each end of the joint for angle measurement and motion recognition. The system includes a sensing device and a display device, each with its custom PCB.
 
-### Sketch
-[Include a sketch of the system, showcasing the placement of IMUs at the knee joint ends and any other relevant components.]
+### Sensing Device 
+The sensor design incorporates two flexible straps, strapped around the thigh and calf, to monitor knee joint movements. Power and data transmission are facilitated through robust wiring for maximum reliability. The TCA9548A multiplexer is utilized for efficient management and organization of sensor data.
+
+![Slide Sensor](https://github.com/ShunxiWu/TECHIN514-Project/blob/main/pictures/514-slide1.png)
+
+### Display Device 
+The display device utilizes a precise NEMA 17 bipolar stepper motor and WS2812B RGB LEDs to visually indicate knee range of motion. It includes a strategically placed capacitive touch button for user interaction. The system is powered by a 3000mAh Lithium Polymer battery, ensuring optimal performance for approximately 48 hours. Custom DSP/ML algorithms on the sensing device and a custom PCB enhance efficiency and integration.
+
+
+![Slide Display](https://github.com/ShunxiWu/TECHIN514-Project/blob/main/pictures/514-slide2.png)
+
+### Mechanism
+The sensing device and display device communicate wirelessly using Bluetooth for efficient data transmission. The sensing device, with IMUs and a TCA9548A multiplexer, captures knee motion data, processes it using custom algorithms, and wirelessly transmits the organized information to the display device. The display device, equipped with a stepper motor, LEDs, and capacitive touch button, receives the data and visually represents knee joint motion based on the transmitted information.
+
+![Slide Sensor](https://github.com/ShunxiWu/TECHIN514-Project/blob/main/pictures/514-slide3.png)
+
 
 ## Sensing Device
 

@@ -93,19 +93,22 @@ The display device is powered by a lightweight and high-energy-density Lithium P
 <!-- **Datasheets:** -->
 
 
-### Additional Displays (Optional)
-[Include details if additional displays (OLED, LCD, E-INK, etc.) are incorporated.]
+<!-- ### Additional Displays (Optional)
+[Include details if additional displays (OLED, LCD, E-INK, etc.) are incorporated.] -->
 
 ## Additional Requirements
+## Additional Requirements
+
 ### DSP/ML Algorithms
-**Algorithms Developed:** [Specify the DSP/ML algorithms developed]
+**Algorithms Developed:** Motion Recognition Algorithm for Knee Joint Monitoring
 
 **Description:**
-Custom DSP/ML algorithms are developed for data handling. These algorithms can be executed on the microcontroller of either the sensing or display device.
+Custom DSP/ML algorithms have been developed to handle motion data from the Inertial Measurement Units (IMUs). The Motion Recognition Algorithm enables accurate analysis of knee joint movements. These algorithms are implemented on the microcontroller of the sensing device, providing real-time processing and valuable insights into the user's knee motion.
 
 ### Custom PCB Incorporation
-**Location of Custom PCB:** [Specify whether the custom PCB is incorporated into the sensing or display device]
+**Location of Custom PCB:** Sensing Device
 
 **Description:**
-At least one custom PCB is incorporated into the final project. It enhances the functionality and efficiency of the [insert sensing or display device].
+At least one custom PCB is incorporated into the final project, enhancing the functionality and efficiency of the sensing device. The custom PCB facilitates seamless integration of components, including IMUs, TCA9548A multiplexer, and the microcontroller (e.g., ESP32). It optimizes the layout for minimal power consumption and ensures precise data acquisition for the DSP/ML algorithms. The custom PCB design reflects a thoughtful approach to compact and efficient hardware integration.
+
 

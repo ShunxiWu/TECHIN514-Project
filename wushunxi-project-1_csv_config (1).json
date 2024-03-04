@@ -13,5 +13,238 @@
             "IMU2 Pitch",
             "IMU2 Roll"
         ]
-    }
+    },
+    "data": [
+        {
+            "Degree": 166.7,
+            "IMU1 Pitch": -8.24,
+            "MU1 Roll": 26.17,
+            "IMU2 Pitch": 0.06,
+            "IMU2 Roll": 19.35
+        },
+        {
+            "Degree": 150.4,
+            "IMU1 Pitch": -7.95,
+            "MU1 Roll": 20.77,
+            "IMU2 Pitch": 0,
+            "IMU2 Roll": 16.45
+        },
+        {
+            "Degree": 137.2,
+            "IMU1 Pitch": -12.43,
+            "MU1 Roll": 15.59,
+            "IMU2 Pitch": 2.28,
+            "IMU2 Roll": 15.94
+        },
+        {
+            "Degree": 130.9,
+            "IMU1 Pitch": -13.44,
+            "MU1 Roll": 11.95,
+            "IMU2 Pitch": 3.39,
+            "IMU2 Roll": 15.29
+        },
+        {
+            "Degree": 119.4,
+            "IMU1 Pitch": -31.03,
+            "MU1 Roll": 62.43,
+            "IMU2 Pitch": 23.5,
+            "IMU2 Roll": 36.71
+        },
+        {
+            "Degree": 108.9,
+            "IMU1 Pitch": -36.85,
+            "MU1 Roll": 63.55,
+            "IMU2 Pitch": 26.68,
+            "IMU2 Roll": 37.13
+        },
+        {
+            "Degree": 100.9,
+            "IMU1 Pitch": -40.65,
+            "MU1 Roll": 65.67,
+            "IMU2 Pitch": 29.95,
+            "IMU2 Roll": 38.56
+        },
+        {
+            "Degree": 89.3,
+            "IMU1 Pitch": -44.84,
+            "MU1 Roll": 64.44,
+            "IMU2 Pitch": 34.13,
+            "IMU2 Roll": 37.72
+        },
+        {
+            "Degree": 76.7,
+            "IMU1 Pitch": -48.86,
+            "MU1 Roll": 55.98,
+            "IMU2 Pitch": 35.45,
+            "IMU2 Roll": 30.8
+        },
+        {
+            "Degree": 101.2,
+            "IMU1 Pitch": -36.89,
+            "MU1 Roll": 56.87,
+            "IMU2 Pitch": 26.33,
+            "IMU2 Roll": 34.94
+        },
+        {
+            "Degree": 119.1,
+            "IMU1 Pitch": -27.79,
+            "MU1 Roll": 58.03,
+            "IMU2 Pitch": 20.38,
+            "IMU2 Roll": 35.6
+        },
+        {
+            "Degree": 129.4,
+            "IMU1 Pitch": -21.16,
+            "MU1 Roll": 56.89,
+            "IMU2 Pitch": 16.42,
+            "IMU2 Roll": 33.99
+        },
+        {
+            "Degree": 143.7,
+            "IMU1 Pitch": -12.49,
+            "MU1 Roll": 55.75,
+            "IMU2 Pitch": 12.45,
+            "IMU2 Roll": 32.88
+        },
+        {
+            "Degree": 151.6,
+            "IMU1 Pitch": -7.53,
+            "MU1 Roll": 53.17,
+            "IMU2 Pitch": 8.98,
+            "IMU2 Roll": 31.95
+        },
+        {
+            "Degree": 163.1,
+            "IMU1 Pitch": -3.83,
+            "MU1 Roll": 55.87,
+            "IMU2 Pitch": 5.69,
+            "IMU2 Roll": 34.1
+        },
+        {
+            "Degree": 172.3,
+            "IMU1 Pitch": 0.49,
+            "MU1 Roll": 59.35,
+            "IMU2 Pitch": 3.91,
+            "IMU2 Roll": 36.23
+        },
+        {
+            "Degree": 146.2,
+            "IMU1 Pitch": -11.22,
+            "MU1 Roll": 42.24,
+            "IMU2 Pitch": 9.44,
+            "IMU2 Roll": 26.57
+        },
+        {
+            "Degree": 122.4,
+            "IMU1 Pitch": -17.3,
+            "MU1 Roll": 30.89,
+            "IMU2 Pitch": 10.87,
+            "IMU2 Roll": 23.72
+        },
+        {
+            "Degree": 102.5,
+            "IMU1 Pitch": -16.87,
+            "MU1 Roll": 10.07,
+            "IMU2 Pitch": 6.49,
+            "IMU2 Roll": 18.48
+        },
+        {
+            "Degree": 78.7,
+            "IMU1 Pitch": -23.73,
+            "MU1 Roll": -1.31,
+            "IMU2 Pitch": 7.18,
+            "IMU2 Roll": 19.07
+        },
+        {
+            "Degree": 69.8,
+            "IMU1 Pitch": -25.92,
+            "MU1 Roll": -9.67,
+            "IMU2 Pitch": 7.32,
+            "IMU2 Roll": 18.21
+        },
+        {
+            "Degree": 170.2,
+            "IMU1 Pitch": -14.98,
+            "MU1 Roll": 44.91,
+            "IMU2 Pitch": 5.53,
+            "IMU2 Roll": 26.14
+        },
+        {
+            "Degree": 142.8,
+            "IMU1 Pitch": -28.35,
+            "MU1 Roll": 56.23,
+            "IMU2 Pitch": 7.87,
+            "IMU2 Roll": 35.29
+        },
+        {
+            "Degree": 1331,
+            "IMU1 Pitch": -35.2,
+            "MU1 Roll": 60.65,
+            "IMU2 Pitch": 12.05,
+            "IMU2 Roll": 37.95
+        },
+        {
+            "Degree": 120.1,
+            "IMU1 Pitch": -40.83,
+            "MU1 Roll": 57.82,
+            "IMU2 Pitch": 15.57,
+            "IMU2 Roll": 37.57
+        },
+        {
+            "Degree": 101.1,
+            "IMU1 Pitch": -45.6,
+            "MU1 Roll": 60.74,
+            "IMU2 Pitch": 19.91,
+            "IMU2 Roll": 38.49
+        },
+        {
+            "Degree": 91.6,
+            "IMU1 Pitch": -51.88,
+            "MU1 Roll": 46.79,
+            "IMU2 Pitch": 18.21,
+            "IMU2 Roll": 34.11
+        },
+        {
+            "Degree": 75.4,
+            "IMU1 Pitch": -55.99,
+            "MU1 Roll": 33.55,
+            "IMU2 Pitch": 20.09,
+            "IMU2 Roll": 29.26
+        },
+        {
+            "Degree": 96.3,
+            "IMU1 Pitch": -74.09,
+            "MU1 Roll": -6.44,
+            "IMU2 Pitch": -9.27,
+            "IMU2 Roll": 37.26
+        },
+        {
+            "Degree": 118.9,
+            "IMU1 Pitch": -63.52,
+            "MU1 Roll": 24.83,
+            "IMU2 Pitch": -11.06,
+            "IMU2 Roll": 34.16
+        },
+        {
+            "Degree": 128.8,
+            "IMU1 Pitch": -53.92,
+            "MU1 Roll": 31.98,
+            "IMU2 Pitch": -13.84,
+            "IMU2 Roll": 30.54
+        },
+        {
+            "Degree": 157.7,
+            "IMU1 Pitch": -45.76,
+            "MU1 Roll": 34.36,
+            "IMU2 Pitch": -18,
+            "IMU2 Roll": 27
+        },
+        {
+            "Degree": 170.8,
+            "IMU1 Pitch": -39.36,
+            "MU1 Roll": 37.07,
+            "IMU2 Pitch": -20.19,
+            "IMU2 Roll": 25.4
+        }
+    ]
 }

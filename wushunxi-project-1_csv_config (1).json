@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "fileName": "processed_data2.csv",
+    "created": 1709515285695,
+    "delimiter": ",",
+    "skipFirstLines": 0,
+    "spec": {
+        "type": "features",
+        "labelsColumn": "Degree",
+        "valueColumns": [
+            "IMU1 Pitch",
+            "MU1 Roll",
+            "IMU2 Pitch",
+            "IMU2 Roll"
+        ]
+    }
+}

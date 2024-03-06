@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "TECHIN514-Poject",
+			"path": "."
+		},
+		{
+			"name": "514-sensor",
+			"path": "../514-sensor"
+		}
+	],
+	"settings": {}
+}

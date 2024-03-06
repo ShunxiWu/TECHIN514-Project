@@ -1,4 +1,4 @@
-# Knee Joint Motion Monitoring System
+# Knee Joint Motion Degree Monitoring System
 
 ## Project Overview
 ### Description
